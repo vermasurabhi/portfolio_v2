@@ -2,6 +2,7 @@ import wildcardMotionImage from "../assets/wildcardmotion.png";
 import gadda from "../assets/gadda.png";
 import sellco from "../assets/sellco.png";
 import vidyashram from "../assets/vidyashram.png";
+import artportfolio from "../assets/artportfolio.png";
 
 export type ShowcaseMedia =
   | { kind: "image"; src: string; alt: string }
@@ -72,6 +73,19 @@ export const SHOWCASE_SLIDES: ShowcaseSlide[] = [
       kind: "image",
       src: vidyashram,
       alt: "VIDYASHRAM project",
+    },
+  },
+  {
+    id: "artportfolio",
+    overlayText: "ART PORTFOLIO",
+    label: "RECENT WORK",
+    titleLine: "ART WORK/BRANDING ‣ PERSONAL PROZECT",
+    categories: ["web site"],
+    visitUrl: "https://artportfolioprod.vercel.app/",
+    media: {
+      kind: "image",
+      src: artportfolio,
+      alt: "artportfolio project",
     },
   },
 ];
